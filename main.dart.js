@@ -47280,7 +47280,7 @@ w6(a,b){return this.XK(a,b)},
 XK(a,b){var s=0,r=A.I(t.z),q,p,o,n
 var $async$w6=A.J(function(c,d){if(c===1)return A.F(d,r)
 while(true)switch(s){case 0:p=t.N
-o=A.aa(["notification",A.aa(["title",a,"body",b],p,p),"priority","high","data",A.aa(["click_action","FLUTTER_NOTIFICATION_CLICK","id","1","status","done","badge",5],p,t.K),"to","dUKFn02HQHy_b1mbcaltZq:APA91bEhINmCZZU2lIvXBwLSvKU20y9UA7sS1S8Ct2ReEKKVz97QmAypaRL4yWlRJZYKRpYCumSMbH5Re3zKF3l7024UKPs32eKAETk6SHdjtr9xqO55EoF1P_igKSun5__Qwp1bMidN"],p,t.z)
+o=A.aa(["notification",A.aa(["title",a,"body",b,"badge",1],p,t.K),"priority","high","data",A.aa(["click_action","FLUTTER_NOTIFICATION_CLICK","id","1","status","done"],p,p),"to","/topics/all"],p,t.z)
 n=A.ku("https://fcm.googleapis.com/fcm/send",0,null)
 p=A.aa(["Content-Type","application/json","Authorization","key=AAAARHJ5Pfw:APA91bGWAKq_V9OW8-mzm9EhUXVVQUDhirAmMxa5wmXr1dyBL25dr7OJSzS7RSIxwLM00hYwF62O-CpiifaIaJ1b043cE2C5Cs5GWIgcqXoU7xv_2llktMgxJlnAKxw7TPcnqElBb7Me"],p,p)
 s=2
